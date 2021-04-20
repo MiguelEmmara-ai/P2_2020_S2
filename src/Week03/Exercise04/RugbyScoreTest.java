@@ -26,8 +26,8 @@ public class RugbyScoreTest {
         System.out.println(rugbyMatch);*/
 
         // Tied
-        rugbyMatch.homeTeam.score(ScoreAction.TRY);
-        rugbyMatch.oppositionTeam.score(ScoreAction.TRY);
+        rugbyMatch.getHomeTeam().score(ScoreAction.TRY);
+        rugbyMatch.getOppositionTeam().score(ScoreAction.TRY);
         System.out.println(rugbyMatch);
     }
 }

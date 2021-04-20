@@ -4,11 +4,27 @@ package Week03.Exercise04;
  * Created by Miguel Emmara
  */
 public class RugbyMatch {
-    RugbyScore homeTeam;
-    RugbyScore oppositionTeam;
+    private RugbyScore homeTeam;
+    private RugbyScore oppositionTeam;
 
     public RugbyMatch(RugbyScore homeTeam, RugbyScore oppositionTeam) {
         this.homeTeam = homeTeam;
+        this.oppositionTeam = oppositionTeam;
+    }
+
+    public RugbyScore getHomeTeam() {
+        return homeTeam;
+    }
+
+    public void setHomeTeam(RugbyScore homeTeam) {
+        this.homeTeam = homeTeam;
+    }
+
+    public RugbyScore getOppositionTeam() {
+        return oppositionTeam;
+    }
+
+    public void setOppositionTeam(RugbyScore oppositionTeam) {
         this.oppositionTeam = oppositionTeam;
     }
 
