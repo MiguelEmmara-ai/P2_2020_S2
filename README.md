@@ -1,4 +1,4 @@
-# P2_2020_S2
+# Programming 2 2020 Semester 2
 Weekly Labs COMP503_2020_02 Programming 2 2020 Semester 2
 
 # Weekly Labs
