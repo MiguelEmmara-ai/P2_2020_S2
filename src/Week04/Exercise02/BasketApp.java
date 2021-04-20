@@ -3,7 +3,7 @@ package Week04.Exercise02;
 /**
  * Created by Miguel Emmara
  */
-public class Main {
+public class BasketApp {
     public static void main(String[] args) {
         Basket cartShopping = new Basket(11);
 
