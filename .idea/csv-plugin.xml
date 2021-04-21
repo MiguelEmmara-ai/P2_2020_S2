@@ -157,6 +157,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\src\Week04\Exercise04\SimpleDateApplication.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
