@@ -164,6 +164,20 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\src\Week05\Exercise01\AnimalApplication.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\src\Week05\Exercise02\ShapeApp.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
