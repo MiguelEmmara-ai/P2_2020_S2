@@ -4,11 +4,11 @@ package Week03.Exercise02;
  * Created by Miguel Emmara
  */
 public class Sphere {
-    private int diameter;
     private static final double pie = 3.14285714286;
+    private int diameter;
 
     public Sphere(int diameter) {
-       setDiameter(diameter);
+        setDiameter(diameter);
     }
 
     public int getDiameter() {
@@ -21,7 +21,7 @@ public class Sphere {
 
     public double calculateVolume() {
         int radius = getDiameter() / 2;
-        return (4.0/3.0) * pie *(radius * radius * radius);
+        return (4.0 / 3.0) * pie * (radius * radius * radius);
     }
 
     public double calculateSurfaceArea() {

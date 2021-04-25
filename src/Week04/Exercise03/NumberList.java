@@ -20,7 +20,7 @@ public class NumberList {
         return i <= listOfInteger.length;
     }
 
-    public void update(int index,int value) {
+    public void update(int index, int value) {
         if (valid(index)) {
             this.listOfInteger[index] = value;
         }
@@ -49,11 +49,11 @@ public class NumberList {
     public double average() {
         int sum = 0;
         for (int j : this.listOfInteger) sum += j;
-        return (double)sum / this.listOfInteger.length;
+        return (double) sum / this.listOfInteger.length;
     }
 
     public int getNumber(int i) {
-        return this.listOfInteger[i-1];
+        return this.listOfInteger[i - 1];
     }
 
     public void absolute() {
@@ -62,7 +62,7 @@ public class NumberList {
         }
     }
 
-    public void scale (int f) {
+    public void scale(int f) {
         for (int i = 0; i < this.listOfInteger.length; i++) {
             this.listOfInteger[i] = this.listOfInteger[i] * f;
         }

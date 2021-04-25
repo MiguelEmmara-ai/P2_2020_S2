@@ -25,9 +25,9 @@ public class Kennel {
                 System.out.println("Please enter a valid age");
                 scanner.nextLine();
             }
-        } while(!stop);
+        } while (!stop);
 
-        Dog aDog = new Dog(dogName,dogAge);
+        Dog aDog = new Dog(dogName, dogAge);
 
         System.out.println(aDog);
     }

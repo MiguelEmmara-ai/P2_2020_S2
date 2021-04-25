@@ -10,7 +10,7 @@ public class SimpleDateApplication {
         d1.setMonth(3);
         d1.setYear(2019);
         System.out.println(d1);
-        SimpleDate d2 = new SimpleDate(14,03,2019);
+        SimpleDate d2 = new SimpleDate(14, 03, 2019);
         System.out.println(d2);
     }
 }

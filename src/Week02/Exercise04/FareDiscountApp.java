@@ -16,13 +16,14 @@ public class FareDiscountApp {
             discount = 50;
         } else if (person.student && person.age >= 40 && person.gender == 'F') {
             discount = 75;
-        } else if (person.age  % 2 == 0) {
+        } else if (person.age % 2 == 0) {
             discount = 25;
-        } else if (person.age  % 2 != 0) {
+        } else if (person.age % 2 != 0) {
             discount = 15;
         }
         return discount;
     }
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -40,7 +41,7 @@ public class FareDiscountApp {
         System.out.println("Please enter the person's gender:");
         char gender = scanner.next().charAt(0);
 
-        Person person = new Person(age,weight,isStudent,gender);
+        Person person = new Person(age, weight, isStudent, gender);
 
         System.out.println("Person: age: " + person.age + " weight: " + person.weight + " student? "
                 + person.student + " gender: " + person.gender);

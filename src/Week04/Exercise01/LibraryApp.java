@@ -3,10 +3,8 @@ package Week04.Exercise01;
 /**
  * Created by Miguel Emmara
  */
-public class LibraryApp
-{
-    public static void main(String[] args)
-    {
+public class LibraryApp {
+    public static void main(String[] args) {
         Library library = new Library(5);
 
         library.addBook(new Book("The Lord of the Rings", "J. R. R.Tolkien"));

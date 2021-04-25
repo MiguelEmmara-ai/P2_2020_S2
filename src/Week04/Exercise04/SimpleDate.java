@@ -4,7 +4,9 @@ package Week04.Exercise04;
  * Created by Miguel Emmara
  */
 public class SimpleDate {
-    private int day; int month; int year;
+    int month;
+    int year;
+    private int day;
 
     public SimpleDate() {
         this.day = 10;
@@ -22,14 +24,6 @@ public class SimpleDate {
         return day;
     }
 
-    public int getMonth() {
-        return month;
-    }
-
-    public int getYear() {
-        return year;
-    }
-
     public void setDay(int day) {
         if (day >= 1 && day <= 31) {
             this.day = day;
@@ -38,12 +32,20 @@ public class SimpleDate {
         }
     }
 
+    public int getMonth() {
+        return month;
+    }
+
     public void setMonth(int month) {
         if (month >= 1 && month <= 31) {
             this.month = month;
         } else {
             this.month = 10;
         }
+    }
+
+    public int getYear() {
+        return year;
     }
 
     public void setYear(int year) {
@@ -55,7 +57,7 @@ public class SimpleDate {
     }
 
     public void setDate(int day, int month, int year) {
-        new SimpleDate(day,month,year);
+        new SimpleDate(day, month, year);
     }
 
     @Override

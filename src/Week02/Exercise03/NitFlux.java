@@ -4,9 +4,9 @@ package Week02.Exercise03;
  * Created by Miguel Emmara
  */
 public class NitFlux {
+    final double MONTHLY_PRICE = 4.99D;
     String emailAddress;
     int subscription;
-    final double MONTHLY_PRICE = 4.99D;
     ANX bankAccount;
 
     public NitFlux(String emailAddress, int subscription) {

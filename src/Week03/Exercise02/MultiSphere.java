@@ -23,7 +23,7 @@ public class MultiSphere {
                 System.out.println("Please Input a valid number");
                 scanner.nextLine();
             }
-        } while(!stop);
+        } while (!stop);
 
     }
 }

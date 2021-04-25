@@ -3,7 +3,7 @@ package Week05.Exercise02;
 /**
  * Created by Miguel Emmara
  */
-public class Rectangle extends Shape{
+public class Rectangle extends Shape {
     private int length;
     private int width;
 

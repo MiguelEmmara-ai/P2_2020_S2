@@ -15,7 +15,7 @@ public class RugbyScoreTest {
         RugbyScore blues = new RugbyScore("Blues");
         RugbyScore highlanders = new RugbyScore("Highlanders");
 
-        RugbyMatch rugbyMatch = new RugbyMatch(blues,highlanders);
+        RugbyMatch rugbyMatch = new RugbyMatch(blues, highlanders);
 
         // homeTeam Wins
         /*rugbyMatch.homeTeam.score(ScoreAction.TRY);

@@ -28,11 +28,11 @@ public class RugbyMatch {
         this.oppositionTeam = oppositionTeam;
     }
 
-    public void homeScore (ScoreAction scoreAction) {
+    public void homeScore(ScoreAction scoreAction) {
         homeTeam.score(scoreAction);
     }
 
-    public void oppositionScore (ScoreAction scoreAction) {
+    public void oppositionScore(ScoreAction scoreAction) {
         oppositionTeam.score(scoreAction);
     }
 

@@ -10,7 +10,7 @@ public class Exercise09 {
         int fahrenheit = scanner.nextInt();
 
         // (°F − 32) × 5/9 = °C
-        int celsius = (fahrenheit - 32) * 5/9;
+        int celsius = (fahrenheit - 32) * 5 / 9;
 
         System.out.println("The temperature " + fahrenheit + "F is " + celsius + "C");
     }

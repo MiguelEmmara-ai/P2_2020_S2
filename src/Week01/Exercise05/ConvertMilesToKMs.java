@@ -18,7 +18,7 @@ public class ConvertMilesToKMs {
                 if (numOfMiles < 0) {
                     System.out.println("Please enter a value greater than 0!");
                     stop = true;
-                } else  {
+                } else {
                     float km = (float) (numOfMiles * MILE_EQUAL);
                     System.out.println("The number of kms is: " + km);
                     stop = false;

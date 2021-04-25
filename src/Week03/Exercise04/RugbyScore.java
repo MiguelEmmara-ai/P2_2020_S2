@@ -28,7 +28,7 @@ public class RugbyScore {
         this.currentPoints = currentPoints;
     }
 
-    public void score (ScoreAction scoreAction) {
+    public void score(ScoreAction scoreAction) {
         setCurrentPoints(getCurrentPoints() + scoreAction.getPointIncrease());
     }
 

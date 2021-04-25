@@ -178,6 +178,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\src\Week05\Exercise03\Data.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
       </map>
     </option>
   </component>

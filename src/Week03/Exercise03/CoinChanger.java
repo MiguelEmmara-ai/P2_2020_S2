@@ -39,7 +39,7 @@ public class CoinChanger {
         return totalCents = getTen() * 10 + getTwenty() * 20 + getFifty() * 50 + getOneDollar() * 100 + getTwoDollar() * 200;
     }
 
-    public int dollars( ) {
+    public int dollars() {
         return computeChange() / 100;
     }
 

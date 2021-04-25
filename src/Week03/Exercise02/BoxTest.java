@@ -14,7 +14,7 @@ public class BoxTest {
         int depth = 0;
         boolean stop = false;
 
-        Box aBox = new Box(0,0,0);
+        Box aBox = new Box(0, 0, 0);
 
         do {
             try {
@@ -26,7 +26,7 @@ public class BoxTest {
                 System.out.println("Please input a valid number");
                 scanner.nextLine();
             }
-        } while(!stop);
+        } while (!stop);
 
         stop = false;
         do {
@@ -39,7 +39,7 @@ public class BoxTest {
                 System.out.println("Please input a valid number");
                 scanner.nextLine();
             }
-        } while(!stop);
+        } while (!stop);
 
         stop = false;
         do {
@@ -52,7 +52,7 @@ public class BoxTest {
                 System.out.println("Please input a valid number");
                 scanner.nextLine();
             }
-        } while(!stop);
+        } while (!stop);
 
         stop = false;
         do {
@@ -60,7 +60,7 @@ public class BoxTest {
                 System.out.print("Is the box full? (Y/N): ");
                 char c = scanner.next().toLowerCase().charAt(0);
 
-                switch(c) {
+                switch (c) {
                     case 'y':
                         aBox.setFull(true);
                         stop = true;
@@ -73,7 +73,7 @@ public class BoxTest {
             } catch (InputMismatchException e) {
                 System.out.println("Please answer (Y/N)");
             }
-        } while(!stop);
+        } while (!stop);
 
         System.out.println("\n" + aBox);
     }

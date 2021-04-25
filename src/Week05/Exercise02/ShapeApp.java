@@ -8,6 +8,7 @@ import java.util.Scanner;
  */
 public class ShapeApp {
     private static final Scanner scanner = new Scanner(System.in);
+
     public static void main(String[] args) {
         int userChoice;
         boolean stop = false;
@@ -38,7 +39,7 @@ public class ShapeApp {
                         int width = scanner.nextInt();
 
                         scanner.nextLine();
-                        Rectangle rectangle = new Rectangle(length,width);
+                        Rectangle rectangle = new Rectangle(length, width);
                         System.out.println("The area of the rectangle is: " + rectangle.computeArea() + "\n");
                         break;
 
