@@ -8,6 +8,7 @@ Weekly Labs COMP503_2020_02 Programming 2 2020 Semester 2
   - [Week 4](https://github.com/MiguelEmmara-ai/P2_2020_S2/tree/master/src/Week04)
   - [Week 5](https://github.com/MiguelEmmara-ai/P2_2020_S2/tree/master/src/Week05)
   - [Week 6](https://github.com/MiguelEmmara-ai/P2_2020_S2/tree/master/src/Week06)
+  - [Week 8](https://github.com/MiguelEmmara-ai/P2_2020_S2/tree/master/src/Week08)
 
 # License
 
