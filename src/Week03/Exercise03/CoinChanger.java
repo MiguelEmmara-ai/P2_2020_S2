@@ -4,7 +4,11 @@ package Week03.Exercise03;
  * Created by Miguel Emmara
  */
 public class CoinChanger {
-    private int ten, twenty, fifty, oneDollar, twoDollar;
+    private final int ten;
+    private final int twenty;
+    private final int fifty;
+    private final int oneDollar;
+    private final int twoDollar;
 
     public CoinChanger(int ten, int twenty, int fifty, int oneDollar, int twoDollar) {
         this.ten = ten;

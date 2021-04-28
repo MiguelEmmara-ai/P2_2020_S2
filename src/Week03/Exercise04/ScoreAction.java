@@ -5,7 +5,7 @@ package Week03.Exercise04;
  */
 public enum ScoreAction {
     TRY(5), CONVERSIONKICK(2), PENALTYKICK(3), DROPGOAL(3);
-    private int pointIncrease;
+    private final int pointIncrease;
 
     ScoreAction(int pointIncrease) {
         this.pointIncrease = pointIncrease;

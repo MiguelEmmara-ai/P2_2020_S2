@@ -7,7 +7,7 @@ import java.util.Collections;
  * Created by Miguel Emmara
  */
 public class Numbers {
-    private ArrayList<Integer> list;
+    private final ArrayList<Integer> list;
 
     public Numbers() {
         this.list = new ArrayList<>();

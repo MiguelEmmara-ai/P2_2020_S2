@@ -6,9 +6,9 @@ import java.util.Stack;
  * Created by Miguel Emmara
  */
 public class MaxMinStack {
-    private Stack<Integer> max;
-    private Stack<Integer> min;
-    private Stack<Integer> stack;
+    private final Stack<Integer> max;
+    private final Stack<Integer> min;
+    private final Stack<Integer> stack;
 
     public MaxMinStack() {
         this.max = new Stack<>();
